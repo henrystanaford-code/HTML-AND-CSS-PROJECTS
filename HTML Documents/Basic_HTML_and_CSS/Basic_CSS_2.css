@@ -1,0 +1,8 @@
+p {
+	color: seagreen;
+	background: white;
+	font-weight: italic;
+	text-align: left;
+	text-shadow: 4px 4px 8px #FF0000
+}
+/* this is how to comment code in CSS! */
