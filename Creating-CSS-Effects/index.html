@@ -4,17 +4,19 @@
         <title>Creating effects with CSS.</title>
         <meta charset="UTF-8">
         <link rel="stylesheet" href="CSS/style.css">
+        <style>@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap');
+        </style>
     </head>
     <body>
         <!--NAVBAR-->
-        <nav>
+        <nav class="navbar">
             <ul>
                 <li>
                     <a href="#">Home</a>
                 </li>
-                <li>
+                <li class="drop">
                     <a href="#">Images</a>
-                    <div>
+                    <div class="rollover-menu">
                         <a href="#image1">Image 1</a>
                         <a href="#image2">Image 2</a>
                         <a href="#image3">Image 3</a>
@@ -25,21 +27,24 @@
         <!--IMAGES-->
         <section>
             <!--IMAGE ONE-->
-            <div id="#image1">
+            <div class="image-container" id="#image1">
                 <img src="Images/hank.png">
+                <div class="overlay"></div>
             </div>
             <!--IMAGE TWO-->
-            <div id="#image2">
-                <img src="Images/rs.jpg">
+            <div class="image-container" id="#image2">
+                <img src="Images/rs.jpg" class="zoom">
             </div>
             <!--IMAGE THREE-->
-            <div id="image3">
-                <img src="Images/download_001.jpg">
+            <div class ="image-container" id="image3">
+                <div class="circle">
+                    <img src="Images/download_001.jpg">
+                </div>
             </div>
         </section>
         <!--FOOTER-->
         <footer>
-            <div>
+            <div class="footer-text">
                 <p>The Tech Academy&copy;</p>
             </div>
         </footer>
