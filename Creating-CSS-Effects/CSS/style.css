@@ -93,9 +93,16 @@ footer{
 
 /*FOOTER ANIMATION*/
 footer:hover{
+    height: 80px; /*Slightly enlargens text on hover*/
     font-size: 30px;
     font-optical-sizing: auto;
+    background-color: #444; /*Darker background on hover*/
     transition: 0.5s, ease-in;
+}
+
+footer:hover .footer-text{
+    color: rgb*(255, 190, 50);/*Lighter text color on hover*/
+    font-size: 25px;/*Text grows slightly on hover*/
 }
 
 /*IMAGES*/
