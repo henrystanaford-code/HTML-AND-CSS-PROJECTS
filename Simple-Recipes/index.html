@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Simple Recipes</title>
+        <meta charset="UTF-8">
+        <link href="CSS/style.css" rel="stylesheet">
+    </head>
+    <body>
+        <!--NAVBAR-->
+        <nav>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#recipes">Recipes</a>
+                    <div>
+                        <a href="#featured">Featured Recipe</a>
+                        <a href="#pasta">Pasta</a>
+                        <a href="#chicken">Chicken</a>
+                        <a href="#pork">Pork</a>
+                        <a href="#biscuits">Biscuits</a>
+                        <a href="#fish">Fish</a>
+                        <a href="#dessert">Dessert</a>
+                    </div>
+                </li>
+                
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+        <!--HEADER-->
+        <header>
+            <h1>Simple Recipes</h1>
+        </header>
+        <!--RECIPES-->
+        <section>
+            <!--FEATURED RECIPE-->
+            <div>
+                <h2>Featured Recipe</h2>
+                <div id="featured">
+                    <img src="Images/skillet-pizza.jpeg">
+                </div>
+                <div>
+                    <h3>Deep Dish Skillet Pizza</h3>
+                    <h4>Prep Time:</h4>
+                    <p>30 - 40 minutes</p>
+                    <h4>Level:</h4>
+                    <p>medium</p>
+                    <p>Deep dish pizza has got a lot going for it:
+                        a thick crust that's tender and chewy on the inside,
+                        but nicely crisped on the outside; a little extra room for piling
+                        on the toppings; and, deep dish is less needy than its thin crust
+                        style counterpart, which requires some care when rolling and stretching.
+                        Here, you just push the dough into the skillet and you're cooking.
+                        Save the leftovers for lunch!</p>
+                    <input type="button" value="Recipe">
+                </div>
+            </div>
+            <!--RECIPE CARDS-->
+            <div id="recipes">
+                <h2>Recipes</h2>
+                <!--PASTA-->
+                <div>
+                    <h3>Saucy Tortelloni Parm</h3>
+                    <div id="pasta">
+                        <img src="Images/tortelloni.jpeg">
+                    </div>
+                    <div>
+                        <h4>Prep Time:</h4>
+                        <p>20 - 30 minutes</p>
+                        <h4>Level:</h4>
+                        <p>easy</p>
+                        <input type="button" value="Recipe">
+                    </div>
+                </div>
+                <!--CHICKEN-->
+                <div>
+                    <h3>Mediterranean Chicken Thighs</h3>
+                    <div id="chicken">
+                        <img src="Images/chicken-thighs.jpeg">
+                    </div>
+                    <div>
+                        <h4>Prep Time:</h4>
+                        <p>20 - 30 minutes</p>
+                        <h4>Level:</h4>
+                        <p>easy</p>
+                        <input type="button" value="Recipe">
+                    </div>
+                </div>
+                <!--PORK-->
+                <div>
+                    <h3>Crispy Pork Katsu & Rice</h3>
+                    <div id="pork">
+                        <img src="Images/pork-katsu.jpeg">
+                    </div>
+                    <div>
+                        <h4>Prep Time:</h4>
+                        <p>20 - 30 minutes</p>
+                        <h4>Level:</h4>
+                        <p>medium</p>
+                        <input type="button" value="Recipe">
+                    </div>
+                </div>
+                <!--BISCUITS-->
+                <div>
+                    <h3>Cheddar Cheese Biscuits</h3>
+                    <div id="biscuits">
+                        <img src="Images/cheddar-biscuits.jpeg">
+                    </div>
+                    <div>
+                        <h4>Prep Time:</h4>
+                        <p>40 - 50 minutes</p>
+                        <h4>Level:</h4>
+                        <p>medium</p>
+                        <input type="button" value="Recipe">
+                    </div>
+                </div>
+                <!--FISH-->
+                <div>
+                    <h3>Baked Cod and Scalloped Potatoes</h3>
+                    <div id="fish">
+                        <img src="Images/baked-cod.jpeg">
+                    </div>
+                    <div>
+                        <h4>Prep Time:</h4>
+                        <p>30 - 40 minutes</p>
+                        <h4>Level:</h4>
+                        <p>easy</p>
+                        <input type="button" value="Recipe">
+                    </div>
+                </div>
+                <!--DESSERT-->
+                <div>
+                    <h3>S'mores Cake</h3>
+                    <div id="dessert">
+                        <img src="Images/smores.jpeg">
+                    </div>
+                    <div>
+                        <h4>Prep Time:</h4>
+                        <p>50 - 60 minutes</p>
+                        <h4>Level:</h4>
+                        <p>medium</p>
+                        <input type="button" value="Recipe">
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!--CONTACT FORM-->
+        <section>
+            <div id="contact">
+                <h2>Contact Us</h2>
+                <h3>Want more information about our recipes?
+                    <br>
+                    Contact us below!
+                </h3>
+                <form>
+                    <input type="text" placeholder="First Name">
+                    <input type="text" placeholder="Last Name">
+                    <br>
+                    <input type="email" placeholder="Email">
+                    <input type="tel" placeholder="Phone Number">
+                    <br>
+                    <input type="checkbox" id="subscription">
+                    <label for="subscription">Subscribe for weekly recipes!</label>
+                    <br>
+                    <textarea placeholder="Type message here..."></textarea>
+                    <br>
+                    <input type="submit" value="Submit">
+                </form>
+            </div>
+        </section>
+    </body>
+</html>
